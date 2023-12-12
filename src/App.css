@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.ant-menu-item:hover {
+  background-color: transparent !important; 
+  color: #ECC329 !important; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@screen sm {
+  .scrolling-container {
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    -ms-overflow-style: none; 
+    scrollbar-color: transparent transparent;
+  }
+  .scrolling-container::-webkit-scrollbar {
+    display: none; 
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width: 640px) {
+  .scrolling-container {
+    scroll-snap-points-x: repeat(100%);
+    overflow-x: scroll;
+  }
+
+}
+.css-dev-only-do-not-override-1adbn6x.ant-carousel .slick-dots li.slick-active button{
+  background: #4870FA;
+
+} 
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-inline.ant-menu-root .ant-menu-item >.ant-menu-title-content{
+  flex: none !important;
+  
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title{
+  color: #ECC329 !important;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title{
+  border-bottom: none;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-carousel .slick-dots li button{
+  height: 7px;
+  border-radius: 10px;
+  background-color: #4870FA;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu .ant-menu-title-content{
+
+  font-size: 14px;
+  font-weight: 500;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-pagination .ant-pagination-item-active a {
+  color: black;
+  background-color: #ECC329;
+  border-radius: 5px;
+    
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-pagination .ant-pagination-item-active{
+  border-color: white;
+ 
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-pagination .ant-pagination-item-active:hover {
+  border-color: white;
+  color: black;
+  background-color: #ECC329;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
