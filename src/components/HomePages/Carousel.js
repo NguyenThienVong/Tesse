@@ -17,8 +17,8 @@ const Carousell = () => {
 
   return (
     <div className="max-w-md mx-auto">
-    <div className=" mt-60 p-4 -ml-[150px]">
-      <div className="relative overflow-hidden w-[700px] xr:hidden xl:block lg:block se:hidden">
+    <div className=" mt-60 p-4 -ml-[150px] xl:block lg:block se:hidden xr:hidden">
+      <div className="relative overflow-hidden w-[700px] ">
         <div
           className="flex transition-transform duration-300 ease-in-out "
           style={{ transform: `translateX(${transformValue}%)` }}
@@ -88,7 +88,7 @@ const Carousell = () => {
         </div>
     </div>
     {/* ------------------------------------------------------------------- */}
-    <div className="xl:hidden lg:hidden">
+    <div className="xl:hidden lg:hidden mt-72">
     <Carousel>
       <div className="text-center">
         <h1 className=" text-4xl font-medium text-Character">Tech Potential Tesse ltd.</h1>

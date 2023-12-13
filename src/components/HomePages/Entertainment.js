@@ -36,7 +36,7 @@ const Entertainment = () => {
                     <i className="fa-solid fa-globe text-regal-Neutrall mx-2 mb-10 ml-12 md:ml-14"></i>
                     <a
                       href="#"
-                      className="text-regal-gray hover:text-regal-Neutrall "
+                      className="text-regal-gray hover:text-regal-Neutrall"
                     >
                       www.tesse.com
                     </a>
