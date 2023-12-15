@@ -55,7 +55,7 @@ const TesseTeach = () => {
           {/* --------------------------------------------- */}
           </div>
         </div>
-        
+
         <div className=" xl:my-32 xl:-ml-32 my-32 lg:mb-[700px] xr:mb-[700px] md:mb-[700px] sm:mb-[700px] se:mb-[700px]   lg:-mt-32 lg:mx-28 md:-mt-32 md:mx-12 sm:-mt-32 sm:mx-0 xr:mt-10">
           <img
             src="./img/Polygon.png"
@@ -67,7 +67,7 @@ const TesseTeach = () => {
             className="absolute w-[458px] h-[458px] mt-10"
           />
         </div>
-        
+
       </div>
     </div>
   );

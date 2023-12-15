@@ -8,6 +8,7 @@ import News from "./Pages/News";
 import NewsFillter from "./Pages/NewsFillter";
 import DetailNews from "./Pages/DetailNews";
 import TesseEcosystem from "./Pages/TesseEcosystem";
+import { FloatButton } from 'antd';
 function App() {
   return (
     <div>

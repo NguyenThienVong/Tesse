@@ -185,7 +185,7 @@ const TesseHistory = () => {
                 trực tuyến về giáo dục.
               </div>
             </div>
-            {/* -------------------------------- */}
+            {/* ------------------------------------- */}
             <div>
               <div className="border-dashed border-b-4 border-borderPrimary text-regal-Primary xl:w-[372px] h-[114px] text-2xl font-semibold leading-10 lg:w-[300px]">
                 2021
